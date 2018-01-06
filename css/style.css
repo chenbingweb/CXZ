@@ -446,14 +446,14 @@ a:link,a:active,a:visited,a:hover
 {
 	line-height: 0.68rem;
 }
-.share_detail .detail_container .count 
+.share_detail .detail_container .count,.my_crowdfunding .count
 {
 	width: 10.0rem;
 	height: 1.613333rem;
 	margin: 0 auto;
 	margin-bottom: 0.533333rem;
 }
-.share_detail .detail_container .count  .li_item
+.share_detail .detail_container .count  .li_item,.my_crowdfunding .count  .li_item
 {
 	width: 2.4rem;
 	height: 1.613333rem;
@@ -463,34 +463,35 @@ a:link,a:active,a:visited,a:hover
 	box-sizing: border-box;
 	padding-top: 0.28rem;
 }
-.share_detail .detail_container .count  .li_item:nth-child(1)
+.share_detail .detail_container .count  .li_item:nth-child(1),.my_crowdfunding .count .li_item:nth-child(1)
 {
 	margin-right: 0.026667rem;
 }
-.share_detail .detail_container .count  .li_item:nth-child(3)
+.share_detail .detail_container .count  .li_item:nth-child(3),.my_crowdfunding .count .li_item:nth-child(3)
 {
 	margin-left: 0.026667rem;
 	margin-right: 0.026667rem;
+	width: 2.266667rem;
 }
-.share_detail .detail_container .count  .li_item:nth-child(4)
+.share_detail .detail_container .count  .li_item:nth-child(4),.my_crowdfunding .count .li_item:nth-child(4)
 {
-	    width: 2.72rem;
+	    width: 2.853333rem;
 }
-.share_detail .detail_container .count  .li_item p
+.share_detail .detail_container .count  .li_item p,.my_crowdfunding .count .li_item p
 {
 	text-align: center;
 	line-height: 0.573333rem;
 
 }
-.share_detail .detail_container .count  .li_item p:nth-child(1)
+.share_detail .detail_container .count  .li_item p:nth-child(1),.my_crowdfunding .count .li_item p:nth-child(1)
 {
 	font-size:0.346667rem;
 	color:#0099cc;
 	text-align: center;
 }
-.share_detail .detail_container .count  .li_item p
+.share_detail .detail_container .count  .li_item p,.my_crowdfunding .count .li_item p
 {
-	font-stretch: 0.373333rem;
+	font-size: 0.373333rem;
 	color:#ff9933;
 	text-align: center;
 }
@@ -557,7 +558,7 @@ a:link,a:active,a:visited,a:hover
  	color:white;
  	font-size: 0.266667rem;
  	margin-top: 0.933333rem;
- 	border-top: 0.013333rem solid white;
+ 	border-top: 1px solid white;
  	letter-spacing:0.073333rem
 }
 .share_detail .detail_container .invitation .invitation_code
@@ -877,6 +878,10 @@ a:link,a:active,a:visited,a:hover
 {
 	padding-top:0.24rem;
 }
+.sign_up_page .sign_container .sign_user_info  .add_info
+{
+	padding:  0.45rem 0;
+}
 .sign_up_page .sign_container .sign_user_info .connect
 {
 	
@@ -970,4 +975,324 @@ a:link,a:active,a:visited,a:hover
 	height: 5.28rem;
 	box-sizing: border-box;
 	margin-top: 5.28rem;
+}
+/*---------------------报名成功---------------------------*/
+.sign_up_succ,.sign_up_succ_container
+{
+	background-color: #02a5df;
+}
+.sign_up_succ .succ_notice
+{
+	width: 9.333333rem;
+	height: 4.906667rem;
+	color:white;
+	font-size: 0.533333rem;
+	text-align: center;;
+	padding-top: 1.146667rem;
+	box-sizing: border-box;
+	margin: 0 auto;
+	line-height: 1.2rem;
+}
+.sign_up_succ .succ_notice .succ_icon
+{
+	width: 1.6rem;
+	height: 1.6rem;
+	background:white url('../images/succ_icon.png') no-repeat center center;
+	background-size: 1.6rem 1.6rem;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.sign_up_succ .sign_up_succ_container .line_arrow
+{
+	width: 9.333333rem;
+	border-top: 0.026667rem solid #c4f7ff;
+	margin: 0 auto;
+	text-align: center;
+}
+.sign_up_succ .sign_up_succ_container .line_arrow>span
+{
+	display: inline-block;
+	border: 0.22rem solid transparent;
+	border-top-color:  #c4f7ff;
+	width: 0;
+	height: 0px;
+}
+.sign_up_succ .sign_up_succ_container .update_photo
+{
+	width: 9.333333rem;
+	margin: 0 auto;
+	padding-top: 0.4rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo p
+{
+	color:#fff;
+	font-size: 0.373333rem;
+	text-align: center;
+	line-height: 0.56rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_2
+{
+	margin-bottom: 0.48rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .photo
+{
+	display: inline-block;
+	width: 4.8rem;
+	height: 3.013333rem;
+	border:0.026667rem solid #b0f0fa;
+	border-radius: 0.066667rem;
+	box-sizing: border-box;
+	padding-top: 1.973333rem;
+	background: url('../images/upload_photo.png') no-repeat center 0.626667rem;
+	background-size: 1.173333rem 1.0rem;
+	margin-bottom: 0.266667rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .photo>span
+{
+	font-size: 0.4rem;
+	color:white;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_4
+{
+	width: 4.8rem;
+	height: 1.066667rem;
+	margin: 0 auto;
+	border:0.026667rem solid #b0f0fa;
+	border-radius: 0.066667rem;
+	box-sizing: border-box;
+	text-align: left;
+	line-height: 1.066667rem;
+	padding-left: 1.2rem;
+	background:url('../images/order_num.png') no-repeat 0.453333rem center;
+	background-size: 0.426667rem 0.426667rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_4>input
+{
+	outline: none;
+	border:none;
+	background-color: transparent;
+	width: 3.466667rem;
+	color:white;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_4>input::-webkit-input-placeholder{
+   color:white;
+   font-size: 0.346667rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_5
+{
+	margin-top: 0.733333rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_5 .btn,.sign_up_succ .sign_up_succ_container .update_photo .nth_child_6 .btn
+{
+	display: inline-block;
+	width: 4.8rem;
+	height: 1.066667rem;
+	background: url('../images/btn_1.png') no-repeat ;
+	background-size: 4.8rem 1.066667rem;
+	line-height:  1.066667rem;
+}
+.sign_up_succ .sign_up_succ_container .update_photo .nth_child_6 .own_pay
+{
+	color:#0099cc;
+	font-size: 0.426667rem;
+	background: url('../images/white_btn.png') no-repeat ;
+	border-radius: 0.066667rem;
+	margin-top: 0.266667rem;
+}
+/*---------------------我的邀请函---------------------------*/
+.my_invitation
+{
+	background: url('../images/invitation_bg.png') no-repeat center;
+	background-size: 10.0rem 100%;
+
+}
+.my_invitation .my_invitation_container
+{
+	padding-top: 1.266667rem;
+}
+.my_invitation .my_invitation_container .inv_text
+{
+	width: 6.813333rem;
+	height: 3.226667rem;
+	background: url('../images/inv_text.png') no-repeat;
+	background-size:  6.813333rem  3.226667rem;
+	margin: 0 auto;
+	margin-bottom: 0.8rem;
+}
+.my_invitation .my_invitation_container .photo_border_box
+{
+	width: 7.293333rem;
+	height: 6.226667rem;
+	background: url('../images/photo_border.png') no-repeat ;
+	background-size: 7.293333rem 6.226667rem;
+	margin:0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	margin-bottom: 1.133333rem;
+}
+.my_invitation .my_invitation_container .photo_border_box .photo_img
+{
+	width: 6.356667rem;
+    height: 5.333333rem;
+    padding-top: 0.44rem;
+}
+.my_invitation .my_invitation_container .btn_item
+{
+	display: block;
+	width: 9.333333rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	font-size: 0.426667rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+.my_invitation .my_invitation_container .re_edit
+{
+	background: url('../images/btn_1.png') no-repeat;
+	background-size: 9.333333rem 1.2rem;
+	border-radius: 0.106667rem;
+}
+.my_invitation .my_invitation_container .nth_child_3
+{
+	margin-top: 0.2rem;
+}
+.my_invitation .my_invitation_container .share
+{
+		background: url('../images/white_btn.png') no-repeat;
+		background-size: 9.333333rem 1.2rem;
+		border-radius: 0.106667rem;
+		color: #333;
+}
+/*---------------------我的众筹---------------------------*/
+.my_crowdfunding,.my_crowdfunding_container
+{
+	background-color: #02a5df;
+}
+.my_crowdfunding .user_info_header
+{
+	width: 9.333333rem;
+	margin:0 auto;
+	height: 2.373333rem;
+	padding:0.4rem 0;
+	box-sizing: border-box;
+	padding-left: 0.266667rem;
+	color: white;
+	font-size: 0.373333rem;
+	line-height: 0.746667rem;
+}
+.my_crowdfunding .user_info_header .user_photo,.my_crowdfunding .user_info_header .user_photo>img
+{
+	width:1.56rem;
+	height: 1.56rem;
+	border-radius: 50%;
+}
+.my_crowdfunding .user_info_header .nth_child_2
+{
+	padding-left: 0.373333rem;
+	width: 6.626667rem;
+	box-sizing: border-box;
+}
+.my_crowdfunding .user_info_header .nth_child_3
+{
+	width: 0.853333rem;
+	height: 1.573333rem;
+	background: url('../images/white_arrow.png') no-repeat center center;
+	background-size: 0.293333rem 0.586667rem;
+}
+.my_crowdfunding .count
+{
+	margin-bottom: 0;
+}
+.my_crowdfunding .overflow_money
+{
+	padding-top:0.453333rem;
+	line-height: 0.826667rem;
+	padding-bottom: 0.306667rem;
+}
+.my_crowdfunding .overflow_money p
+{
+	text-align: center;
+	color:white;
+	font-size:0.373333rem;
+}
+.my_crowdfunding .overflow_money .price_total
+{
+	color: #ffcc66;
+	font-weight: bold;
+	font-size: 0.426667rem;
+	background-color: #f98428;
+	display: inline-block;
+	height: 0.666667rem;
+	line-height: 0.666667rem;
+	border-radius: 0.333333rem;
+	padding:0 0.133333rem;
+}
+.my_crowdfunding .overflow_money  b
+{
+	font-size: 0.346667rem;
+	color:#ffcc66;
+}
+.my_crowdfunding .suport_title
+{
+	font-size: 0.4rem;
+	color:white;
+	text-align: center;
+	background-color: #0194c9;
+	margin:0 auto;
+	width: 10.0rem;
+}
+.my_crowdfunding .suport_title span
+{
+	padding-left: 0.586667rem;
+	background: url(../images/heart_1.png) no-repeat left center;
+	background-size:0.426667rem 0.346667rem;
+	line-height: 0.933333rem;
+}
+.my_crowdfunding .friend_list_box
+{
+	width: 9.333333rem;
+	margin:0 auto;
+	height: 6.533333rem;
+	overflow: scroll;
+}
+.my_crowdfunding .friend_list_box .item
+{
+	padding: 0.266667rem 0;
+	border-bottom: 0.026667rem dashed #67c9ec;
+}
+.my_crowdfunding .friend_list_box .img 
+{
+	width: 1.0rem;
+	height: 1.0rem;
+	border-radius: 50%;
+	vertical-align: middle;
+	
+}
+.my_crowdfunding .friend_list_box .nth_child_2,.my_crowdfunding .friend_list_box .nth_child_3
+{
+	line-height: 1.0rem;
+	height: 1.0rem;
+	color:white;
+	padding-left: 0.253333rem;
+	width: 4.8rem;
+}
+.my_crowdfunding .friend_list_box .nth_child_3
+{
+	width: 1.733333rem;
+	padding-left: 0rem;
+	padding-right: 0.093333rem;
+	text-align: right;
+}
+.my_crowdfunding .visit_box
+{
+	text-align: center;
+	line-height: 1.2rem;
+	height: 1.2rem;
+	font-size: 0.426667rem;
+	width: 9.333333rem;
+	margin:0 auto;
+	background: url('../images/btn_1.png') no-repeat;
+	background-size: 9.333333rem 1.2rem;
+	margin-top: 0.48rem;
 }
