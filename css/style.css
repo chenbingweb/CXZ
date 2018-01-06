@@ -1,0 +1,973 @@
+html,body {
+	height: 100%;
+	min-height: 100%;
+}
+input {
+	font-family: "Microsoft Yahei";
+}
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+ a,img
+ {
+ 	border-style:none!important;
+	text-decoration:none!important;
+	outline: none!important;
+	-webkit-tap-highlight-color: transparent!important;
+	-webkit-touch-callout: none!important;
+	-webkit-user-select: none!important;
+ }
+ input[type="submit"],
+ input[type="reset"],
+ input[type="button"],
+ button {
+ -webkit-appearance: none;
+ }
+
+
+a:link,a:active,a:visited,a:hover 
+{ 
+	text-decoration:none!important;
+	color:white;
+}
+.marker
+{
+	width:0.693333rem;
+	height: 1.52rem;
+	position: absolute;
+	top:0.066667rem;
+	left: 0.573333rem;
+	color:white;
+}
+.marker>span
+{
+	display: block;
+	width:  0.32rem;
+	margin-left: 0.16rem;
+	font-size: 0.32rem;
+}
+.marker.recruit
+{
+	background:url('../images/marker_1.png') no-repeat center top;
+	background-size: 0.693333rem 1.52rem;
+}
+.marker.finished
+{
+	background:url('../images/marker_2.png') no-repeat center top;
+	background-size: 0.693333rem 1.52rem;
+}
+/*---------------------个人中心---------------------------*/
+.center_body
+{
+	width:10.0rem;
+	height: 16.093333rem;
+/*	background-color:#02a6df;*/
+	background-size: 10.0rem 100%;
+	margin:0 auto;
+}
+
+.person_center>.header
+{
+	width:10.0rem;
+	height:4.893333rem;
+	background: url('../images/center_header_bg.png') no-repeat center center;
+	background-size: 100% 100%;
+	padding-top: 0.906667rem;
+	box-sizing: border-box;
+
+}
+.person_center>.header .photo
+{
+	width: 2.32rem;
+	height: 2.32rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	border:0.093333rem solid #d8f2ff;
+}
+.person_center>.header .photo>img
+{
+	width: 2.32rem;
+	height: 2.32rem;
+	border-radius: 50%;
+}
+.person_center>.header .user_name
+{
+	text-align: center;
+	font-size: 0.48rem;
+	color:white;
+	line-height: 0.48rem;
+	margin-top: 0.213333rem;
+}
+.person_center>.header .user_name p:nth-child(2)
+{
+	width: 1.226667rem;
+	height: 0.106667rem;
+	background-color: #f88527;
+	margin:0 auto;
+	margin-top: 0.186667rem;
+}
+.person_center>.section
+{
+	position: absolute;
+	bottom:0;
+	left:0;
+	top:4.893333rem;;
+	width: 10.0rem;
+	box-sizing: border-box;
+	padding: 0 0.693333rem;
+	padding-top: 0.066667rem;
+	background: #02a6df url('../images/7-3_33.jpg') no-repeat ;
+	background-size: 10.0rem 100%;
+}
+.person_center>.section .item
+{
+	width: 4.0rem;
+	height: 2.506667rem;
+	box-sizing: border-box;
+	border:0.026667rem solid #99ffff;
+	margin-top: 0.6rem;
+	border-radius: 0.173333rem;
+	
+}
+.person_center>.section .item a
+{
+	display: inline-block;
+	width: 4.0rem;
+	height: 2.506667rem;
+	padding-top: 0.586667rem;
+	box-sizing: border-box;
+}
+.person_center>.section .item:nth-child(1) .icon
+{
+	width:0.68rem;
+	height: 0.68rem;
+	margin:0 auto;
+	background: url('../images/my_icon.png') no-repeat center center;
+	background-size: 0.68rem 0.68rem;
+}
+.person_center>.section .item:nth-child(2) .icon
+{
+	width: 0.64rem;
+	height: 0.693333rem;
+	margin:0 auto;
+	background: url('../images/send.png') no-repeat center center;
+	background-size: 0.64rem 0.693333rem;
+}
+.person_center>.section .item:nth-child(3) .icon
+{
+	width:0.706667rem;
+	height: 0.693333rem;
+	margin:0 auto;
+	background: url('../images/my_zc.png') no-repeat center center;
+	background-size: 0.706667rem 0.693333rem;
+}
+.person_center>.section .item:nth-child(4) .icon
+{
+	width: 0.613333rem;
+	height: 0.693333rem;
+	margin:0 auto;
+	background: url('../images/order.png') no-repeat center center;
+	background-size: 0.613333rem 0.693333rem;
+}
+.person_center>.section .item:nth-child(5) .icon
+{
+	width: 0.693333rem;
+	height: 0.693333rem;
+	margin:0 auto;
+	background: url('../images/gift.png') no-repeat center center;
+	background-size: 0.693333rem 0.693333rem;
+}
+.person_center>.section .item:nth-child(6) .icon
+{
+	width: 0.56rem;
+	height: 0.693333rem;
+	margin:0 auto;
+	background: url('../images/local.png') no-repeat center center;
+	background-size: 0.56rem 0.693333rem;
+}
+.person_center>.section .item .title
+{
+	text-align: center;
+	font-size: 0.373333rem;
+	color:white;
+	line-height:  0.373333rem;
+	margin-top: 0.32rem;
+}
+/*---------------------众筹列表---------------------------*/
+.crowd_funding
+{
+	background-color:#02a5df;
+}
+.crowd_funding .crowd_funding_list
+{
+	width: 10.0rem;
+	margin:0 auto;
+	/*background-color: #02a5df;*/
+	padding-bottom: 0.173333rem;
+}
+.crowd_funding .crowd_funding_list .item
+{
+	padding-top: 0.173333rem;
+	/*height: 4.706667rem;*/
+	width: 10.0rem;
+	position: relative;
+	box-sizing: border-box;
+}
+.crowd_funding .crowd_funding_list .item .marker
+{
+	width:0.693333rem;
+	height: 1.52rem;
+	position: absolute;
+	top:0.066667rem;
+	left: 0.573333rem;
+	color:white;
+}
+.crowd_funding .crowd_funding_list .item .marker>span
+{
+	display: block;
+	width:  0.32rem;
+	margin-left: 0.16rem;
+	font-size: 0.32rem;
+}
+.crowd_funding .crowd_funding_list .item .marker.recruit
+{
+	background:url('../images/marker_1.png') no-repeat center top;
+	background-size: 0.693333rem 1.52rem;
+}
+.crowd_funding .crowd_funding_list .item .marker.finished
+{
+	background:url('../images/marker_2.png') no-repeat center top;
+	background-size: 0.693333rem 1.52rem;
+}
+.crowd_funding .crowd_funding_list .item a
+{
+	display: block;
+	/*height: 4.706667rem;*/
+	width: 10.0rem;
+	margin:0 auto;
+}
+.crowd_funding .crowd_funding_list .item img
+{
+	width: 10.0rem;
+	vertical-align: middle;
+	/*height: 4.533333rem;*/
+}
+.crowd_funding .crowd_funding_list .item .bottom_label
+{
+	width: 10.0rem;
+	height: 1.053333rem;
+	background-color:rgba(255,255,255,0.4);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-size: 0.426667rem;
+	color:#000;
+	line-height: 1.053333rem;
+}
+/*---------------------众筹详情与分享---------------------------*/
+.share_detail
+{
+	background-color:#02a5df;
+}
+.share_detail .invitation_user
+{
+	width:10.0rem;
+	height: 5.066667rem;
+	background-color:#ffffff;
+	margin: 0 auto;
+}
+.share_detail .invitation_user p
+{
+	text-align: center;
+	font-size: 0.373333rem;
+	color: #333;
+	line-height: 0.853333rem;
+}
+.share_detail .invitation_user p b
+{
+	color:#ffcc33;
+}
+.share_detail .invitation_user p:nth-child(1)
+{
+	padding-top: 0.4rem;
+	padding-bottom: 0.186667rem;
+}
+.share_detail .invitation_user p:nth-child(1) img
+{
+	width: 1.0rem;
+	height: 1.0rem;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin:0 0.253333rem;
+}
+.share_detail .invitation_user .invitation_btn
+{
+	display: block;
+	width: 9.333333rem;
+	height: 1.2rem;
+	margin:auto;
+	margin-top: 0.293333rem;
+	background: url('../images/btn_1.png') no-repeat;
+	background-size: 9.333333rem 1.2rem;
+	color:#fff;
+	font-size: 0.426667rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+
+.share_detail .header
+{
+	width: 10.0rem;
+	padding-top: 0.973333rem;
+	margin:0 auto;
+}
+.share_detail .header .title
+{
+	width: 6.573333rem;
+	height: 1.066667rem;
+	border-radius: 0.533333rem;
+	background-color: #fec33f;
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 1.066667rem;
+	color:white;
+	position: absolute;
+	top:-0.466667rem;
+	left: 1.733333rem;
+}
+.share_detail .header .img
+{
+	position: relative;
+}
+.share_detail .header img
+{
+	width: 10.0rem;
+	vertical-align: middle;
+}
+.share_detail .header .user_info
+{
+	width: 10.0rem;
+	margin:0 auto;
+	height: 1.786667rem;
+	background-color: white;
+}
+.share_detail .header .user_info .photo
+{
+	width:2.186667rem;
+	height: 2.186667rem;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border:0.08rem solid white;
+	margin-left: 1.733333rem;
+	position: relative;
+	top:-0.68rem;
+}
+.share_detail .header .user_info .photo img
+{
+	width:2.026667rem;
+	height: 2.026667rem;
+	border-radius: 50%;
+}
+.share_detail .header .user_info .info
+{
+	margin-top: 0.426667rem;
+	margin-left: 0.133333rem;
+}
+.share_detail .header .user_info .info p:nth-child(1)
+{
+	font-size: 0.373333rem;
+	color:#333333;
+	width: 5.333333rem;
+}
+.share_detail .header .user_info .info p:nth-child(2)
+{
+	font-size: 0.32rem;
+	color:#999999;
+	width: 5.333333rem;
+}
+/*详情*/
+.share_detail .detail_container
+{
+	width: 10.0rem;
+	margin:0 auto;
+	margin-top: 0.533333rem;
+	background-color:#02a5df;
+	    padding-bottom: 1.2rem;
+}
+.share_detail .detail_container .picture
+{
+	position: relative;
+}
+.share_detail .detail_container .picture>img
+{
+	width: 10.0rem;
+}
+.share_detail .detail_container .picture .marker_top
+{
+	top:-0.12rem;
+	left: 0.333333rem;
+}
+.share_detail .detail_container .pic_info
+{
+	width: 10.0rem;
+	margin:0 auto;
+	height: 1.893333rem;
+	box-sizing: border-box;
+	padding: 0 0.333333rem;
+}
+.share_detail .detail_container .pic_info p:nth-child(1)
+{
+	font-size: 0.426667rem;
+	font-weight: bold;
+	color: white;
+	line-height: 0.973333rem;
+}
+.share_detail .detail_container .pic_info p:nth-child(2)
+{
+	font-size: 0.346667rem;
+	color: white;
+}
+.share_detail .detail_container .pic_info p:nth-child(2) .money
+{
+	color:#ffcc33;
+	font-size:0.346667rem;
+}
+.share_detail .detail_container .pic_info p:nth-child(2) .money_total
+{
+	color:#ffcc33;
+	font-size:0.48rem;
+	font-weight: bold;
+}
+.share_detail .detail_container .pic_info p:nth-child(2) .time
+{
+	line-height: 0.68rem;
+}
+.share_detail .detail_container .count 
+{
+	width: 10.0rem;
+	height: 1.613333rem;
+	margin: 0 auto;
+	margin-bottom: 0.533333rem;
+}
+.share_detail .detail_container .count  .li_item
+{
+	width: 2.4rem;
+	height: 1.613333rem;
+	box-sizing: border-box;
+	border-top:0.08rem solid #f98428;
+	background-color: #c4f7ff;
+	box-sizing: border-box;
+	padding-top: 0.28rem;
+}
+.share_detail .detail_container .count  .li_item:nth-child(1)
+{
+	margin-right: 0.026667rem;
+}
+.share_detail .detail_container .count  .li_item:nth-child(3)
+{
+	margin-left: 0.026667rem;
+	margin-right: 0.026667rem;
+}
+.share_detail .detail_container .count  .li_item:nth-child(4)
+{
+	    width: 2.72rem;
+}
+.share_detail .detail_container .count  .li_item p
+{
+	text-align: center;
+	line-height: 0.573333rem;
+
+}
+.share_detail .detail_container .count  .li_item p:nth-child(1)
+{
+	font-size:0.346667rem;
+	color:#0099cc;
+	text-align: center;
+}
+.share_detail .detail_container .count  .li_item p
+{
+	font-stretch: 0.373333rem;
+	color:#ff9933;
+	text-align: center;
+}
+/*邀请函*/
+.share_detail .detail_container .invitation
+{
+	width: 10.0rem;
+	margin: 0 auto;
+	height: 4.266667rem;
+	padding: 0 0.333333rem;
+	box-sizing: border-box;
+}
+.share_detail .detail_container .invitation>.card
+{
+	width: 9.333333rem;
+	height: 4.266667rem;
+	background:url('../images/invisit.png') no-repeat;
+	background-size: 9.333333rem 4.266667rem;
+}
+.share_detail .detail_container .invitation>.card .mark
+{
+	width: 9.333333rem;
+	height: 4.266667rem;
+	background-color: rgba(255,204,102,0.8);
+}
+.share_detail .detail_container .invitation .invitation_info
+{
+	width: 5.333333rem;
+	height: 4.266667rem;
+	padding-top: 0.546667rem;
+}
+.share_detail .detail_container .invitation .invitation_info p:nth-child(1) 
+{
+	width: 4.853333rem;
+	height: 1.253333rem;
+}
+.share_detail .detail_container .invitation .invitation_info  .font_pic
+{
+	width: 3.573333rem;
+	height: 1.253333rem;
+	background:url('../images/visit.png') no-repeat 0.44rem top;
+	background-size: 2.413333rem 0.773333rem;
+	margin-top: 0.053333rem;
+}
+.share_detail .detail_container .invitation .invitation_info  .fingerprint
+{
+	width: 1.266667rem;
+	height: 1.24rem;
+	background:url('../images/finger.png') no-repeat center top;
+	background-size: 1.266667rem  1.24rem;
+}
+.share_detail .detail_container .invitation .invitation_info p:nth-child(2)
+{
+	 width: 5.333333rem;
+	margin-top: 0.133333rem;
+	color:#333366;
+	font-size: 0.32rem;
+	padding-left: 0.44rem;
+} 
+.share_detail .detail_container .invitation .invitation_info p:nth-child(3)
+{
+ 	width: 4.626667rem;
+ 	margin:0 auto;
+ 	color:white;
+ 	font-size: 0.266667rem;
+ 	margin-top: 0.933333rem;
+ 	border-top: 0.013333rem solid white;
+ 	letter-spacing:0.073333rem
+}
+.share_detail .detail_container .invitation .invitation_code
+{
+	width: 3.866667rem;
+	height: 4.266667rem;
+	padding-top: 0.546667rem;
+	padding-left: 0.146667rem;
+	box-sizing: border-box;
+}
+.share_detail .detail_container .invitation .invitation_code .code_box
+{
+	width: 3.24rem;
+	height: 3.24rem;
+	background-color: rgba(255,255,255,0.5);
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+.share_detail .detail_container .invitation .invitation_code .code_box .code_img
+{
+	width: 3.04rem;
+	height: 3.04rem;
+
+}
+/*活动详情*/
+.share_detail .detail_container .active_detail
+{
+	width: 10.0rem;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding:0 0.333333rem;
+}
+.share_detail .detail_container .active_detail .title
+{
+	width: 9.333333rem;
+	height: 1.626667rem;
+	margin:0 auto;
+	background:url('../images/active.png') no-repeat center center;
+	background-size: 3.253333rem 0.76rem;
+}
+.share_detail .detail_container .active_detail .active_box
+{
+	width: 9.333333rem;
+	margin: 0 auto;
+	background-color: #dddddd;
+	border-top: 0.053333rem solid #fec33f;
+}
+.share_detail .detail_container .active_detail .active_list 
+{
+
+	width: 8.933333rem;
+	margin: 0 auto;
+}
+.share_detail .detail_container .active_detail .active_list  li:nth-child(odd)
+{
+	height: 1.12rem;
+	background-color: white;
+	
+}
+.share_detail .detail_container .active_detail .active_list  li:nth-child(even)
+{
+	height: 1.146667rem;
+	background-color: #e9e9e9;
+
+}
+.share_detail .detail_container .active_detail .active_list  li .date
+{
+	width: 1.92rem;
+	line-height:  1.12rem;
+}
+.share_detail .detail_container .active_detail .active_list  li .date>span
+{
+	display: inline-block;
+	width: 1.6rem;
+	height: 0.506667rem;
+	background-color: #02a6df;
+	line-height:  0.506667rem;
+	text-align: center;
+	color:white;
+	border-radius: 0rem  0.253333rem 0.253333rem 0rem;
+	position: relative;
+	left:-0.093333rem;
+}
+.share_detail .detail_container .active_detail .active_list  li .content
+{
+	width: 6.933333rem;
+	font-size: 0.373333rem;
+	color:#5c5c5c;
+	height:1.12rem;
+}
+.share_detail .detail_container .active_detail .active_box .sign_up
+{
+	text-align: center;
+
+}
+.share_detail .detail_container .active_detail .active_box .sign_up>img
+{
+	width: 9rem
+}
+.share_detail .detail_container .active_detail  .free
+{
+	height: 2.106667rem;
+	background:url('../images/active_fee.png') no-repeat center 0.36rem;
+	background-size: 3.213333rem 0.76rem;
+	text-align: center;
+	padding-top: 1.24rem;
+	box-sizing: border-box;
+}
+.share_detail .detail_container .active_detail  .free>span
+{
+	display: inline-block;
+	width: 3.466667rem;
+	height: 0.613333rem;
+	line-height: 0.613333rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.48rem;
+	background-color: #fec33f;
+	border-radius: 0.306667rem;
+	color: white;
+}
+/*费用*/
+.free_title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size:0.426667rem;
+	line-height: 0.76rem;
+}
+.free_box li
+{
+	width: 8.933333rem;
+	margin: 0 auto;
+}
+.free_box li:nth-child(odd)
+{
+	background-color: white;
+}
+.free_box li:nth-child(even)
+{
+	background-color: #e9e9e9;
+}
+.free_box .title_name
+{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	width: 1.84rem;
+	text-align: center;
+	color:#555;
+	font-weight: bold;
+}
+.free_box .contents
+{
+	width: 6.666667rem;
+	padding:0.133333rem 0;
+	color:#696969;
+	 line-height:0.506667rem;
+}
+/*分享*/
+.share_friend
+{
+	display: block;
+	width: 10.0rem;
+	height: 1.2rem;
+	background: url('../images/btn_2.png') no-repeat;
+	background-size: 10.0rem;
+	height: 1.2rem;
+	/*background-color: #fdb92c;*/
+	line-height:1.2rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color:#fff;
+	font-size:0.48rem;
+	margin:0 auto;
+}
+.share_friend>span
+{
+	padding-left: 0.8rem;
+	background:url('../images/share.png') no-repeat;
+	background-size: 0.506667rem 0.506667rem;
+}
+.share_friend.suport>span
+{
+	padding-left: 0.84rem;
+	background:url('../images/heart.png') no-repeat left center;
+	background-size: 0.586667rem 0.48rem;
+}
+/*验证*/
+.validate_container
+{
+	position: fixed;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+ .close_validate
+{
+	width: 1.026667rem;
+	height: 1.786667rem;
+	position: absolute;
+	background: url('../images/close.png') no-repeat center center;
+	background-size: 1.026667rem 1.786667rem;
+	right: 0.333333rem;
+	top:-1.786667rem
+}
+ .validate_container .validate_box
+{
+	width: 8.066667rem;
+	height: 6.653333rem;
+	background:url('../images/check_bg.png') no-repeat;
+	background-size: 8.066667rem 6.653333rem;
+	margin: 0 auto;
+	margin-top: 4.6rem;
+	padding-top: 0.533333rem;
+	position: relative;
+}
+ .validate_container .validate_box p
+{
+	width: 7.013333rem;
+	height: 1.2rem;
+	background-color: white;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding: 0.2rem 0.12rem;
+	margin-bottom: 0.266667rem;
+	border-radius: 0.066667rem;
+}
+ .validate_container .validate_box p:nth-child(3)
+{
+	margin-bottom: 0.4rem;
+}
+ .validate_container .validate_box p .icon
+{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+ .validate_container .validate_box p .input
+{
+	height: 0.8rem;
+	border:none;
+	color:#333;
+	box-sizing: border-box;
+	padding: 0 0.133333rem;
+
+}
+ .validate_container .validate_box p .person
+{
+	background:url('../images/person.png') no-repeat center center;
+	background-size: 0.373333rem 0.373333rem;
+}
+ .validate_container .validate_box p  .user_name
+{
+	width: 5.973333rem;
+}
+ .validate_container .validate_box p .phone
+{
+	background:url('../images/phone.png') no-repeat center center;
+	background-size: 0.253333rem 0.426667rem;
+}
+ .validate_container .validate_box p .get_code
+{
+	display: block;
+	width: 2.08rem;
+	height: 0.733333rem;
+	background-color: #fbb01c;
+	text-align: center;
+	line-height: 0.733333rem;
+	color:white;
+	font-size:0.32rem;
+	border-radius: 0.053333rem;
+	margin-right: 0.12rem;
+	margin-top: 0.053333rem;
+}
+ .validate_container .validate_box .submit
+{
+	width: 4.8rem;
+	height: 1.066667rem;
+	margin:0 auto;
+	background:url('../images/submit.png') no-repeat;
+	background-size: 4.813333rem 1.08rem;
+	text-align: center;
+	line-height: 1.066667rem;
+	color:#fff;
+	font-size: 0.426667rem;
+}
+/*---------------------我要报名---------------------------*/
+.sign_up_page
+{
+	background-color: #02a5df
+}
+.sign_up_page .sign_container
+{
+	width: 9.333333rem;
+	margin: 0 auto;
+	padding-top: 0.4rem;
+}
+.sign_up_page .sign_container .item
+{
+	width: 9.333333rem;
+	min-height: 2.08rem;
+	background-color: white;
+	border-radius: 0.066667rem;
+	font-size: 0.346667rem;
+	box-sizing: border-box;
+	line-height:0.8rem;
+	color: #999;
+	
+	margin-bottom: 0.213333rem;
+}
+.sign_up_page .sign_container .sign_user_info 
+{
+	padding-top:0.24rem;
+}
+.sign_up_page .sign_container .sign_user_info .connect
+{
+	
+	padding-left: 0.4rem;
+}
+.sign_up_page .sign_container .sign_user_info .connect span
+{
+	color:#333;
+}
+.sign_up_page .sign_container .sign_user_info .arrow
+{
+	width: 1.2rem;
+	height:  1.613333rem;
+	background:url('../images/arrow.png') no-repeat center center;
+	background-size:0.293333rem 0.586667rem;
+}
+.sign_up_page .sign_container  .active
+{
+	padding:0.4rem;
+}
+.sign_up_page .sign_container  .active .img
+{
+	width: 3.266667rem;
+	height: 1.933333rem;
+}
+.sign_up_page .sign_container  .active .img>img
+{
+	width: 3.266667rem;
+	height: 1.933333rem;
+	border-radius: 0.08rem;
+}
+.sign_up_page .sign_container  .active .acitve_info
+{
+	width: 5.0rem;
+}
+.sign_up_page .sign_container  .active .acitve_info p:nth-child(1)
+{
+	color:#333;
+	line-height: 0.653333rem;
+	font-size:0.373333rem;
+}
+.sign_up_page .sign_container  .active .acitve_info p:nth-child(2)
+{
+	line-height: 0.506667rem;
+	padding-top: 0.213333rem;
+}
+.sign_up_page .sign_container .fundraising
+{
+	padding:0.2rem 0;
+}
+.sign_up_page .sign_container .fundraising p
+{
+	width: 9.333333rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 0.4rem;
+	line-height: 0.813333rem;
+}
+.sign_up_page .sign_container .fundraising p span:nth-child(2)
+{
+	color:#333;
+}
+.sign_up_page .sign_container .fundraising p:nth-child(3) span:nth-child(2)
+{
+	color:#ff9933;
+	
+}
+.sign_up_page .sign_container .fundraising p:nth-child(3) span:nth-child(2) .price
+{
+	font-size: 0.426667rem;
+}
+.sign_up_page .sign_container .submit
+{
+	width: 9.333333rem;
+	margin: 0 auto;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color:white;
+	font-size: 0.426667rem;
+	background: url('../images/btn_1.png') no-repeat;
+	background-size: 9.333333rem 1.2rem;
+	margin-top: 1.066667rem;
+}
+.sign_up_page .validate_container .phone_num
+{
+	width: 	5.973333rem;
+}
+.sign_up_page .validate_container .validate_box
+{
+	height: 5.28rem;
+	box-sizing: border-box;
+	margin-top: 5.28rem;
+}

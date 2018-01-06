@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人中心</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/flexible_css.js"></script>
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body class="sign_up_page">
+	<div class="sign_container">
+		<div class="item sign_user_info clearfix">
+			<div class="f-l connect">
+				<p>联系人：<span>宋先生</span></p>
+					<p>手机号：<span>17600117545</span></p>
+			</div>
+			<div class="f-r arrow"></div>
+		</div>
+		<div class="item  clearfix active">
+			<div class="f-l img">
+				<img src="./images/img/1.png">
+			</div>
+			<div class="f-r acitve_info">
+				<p class="one_line">贝加尔湖 | 邂逅此生必见的蓝</p>
+				<p class="ellipsis">描述...贝加尔在鄂温克语中称为“la米u”意思是“海”。</p>
+			</div>
+		</div>
+		<div class="item fundraising">
+			<p class="clearfix">
+					<span class="f-l">众筹截止日期</span>
+					<span class="f-r">2017.12.30</span>
+			</p>
+			<p class="clearfix">
+					<span class="f-l">活动日期</span>
+					<span class="f-r">2018.01.01-2018.03.03</span>
+			</p>
+			<p class="clearfix">
+					<span class="f-l">众筹金额</span>
+					<span class="f-r"><b>￥</b><b class="price">18980.00</b></span>
+			</p>
+		</div>
+		<div class="submit">
+			确认报名
+		</div>
+	</div>
+	<div class="validate_container">
+			<form class="validate_box">
+				<span class="close_validate"></span>
+				<p class="clearfix">
+						<span class="icon f-l person"></span>
+						<input class="input user_name" class="f-l"  type="text" name="name" placeholder="请输入姓名">
+				</p>
+				<p class="clearfix ">
+						<span class="icon f-l phone"></span>
+						<input class="input phone_num" class="f-l"  type="tel" name="phone" placeholder="请输入手机号">
+				</p>
+				<div class="submit">
+						保存
+				</div>
+		</form>
+	</div>
+	<script>
+		$(function () {
+			$('.close_validate').click(function(){
+				$('.validate_container').hide()
+			})
+
+		})
+	</script>
+</body>
+</html>

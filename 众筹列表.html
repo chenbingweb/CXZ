@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>众筹列表</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/flexible_css.js"></script>
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body class="crowd_funding">
+		<div class="crowd_funding_list">
+				<ul >
+						<li class="item">
+								<a href="javascript:;">
+									<div class="marker recruit">
+										<span>招募中</span>
+									</div>
+									<img src="./images/img/1.png">
+									<div class="bottom_label one_line">“新高度 新机遇”新锐企业家哈巴雪山登山节</div>
+								</a>
+						</li>
+						<li class="item">
+							<a href="javascript:;">
+								<div class="marker finished">
+									<span>已结束</span>
+								</div>
+								<img src="./images/img/1.png">
+								<div class="bottom_label one_line">“新高度 新机遇”新锐企业家哈巴雪山登山节</div>
+							</a>
+						</li>
+				</ul>
+		</div>
+	<script>
+			$(function () {
+				for(var i=0;i<1;i++)
+				{
+					$('.crowd_funding_list>ul').append('<li class="item"><a href="javascript:;"><div class="marker recruit"><span>招募中</span></div><img src="./images/img/1.png"><div class="bottom_label one_line">“新高度 新机遇”新锐企业家哈巴雪山登山节</div></a></li>')
+				}
+			})
+	</script>
+</body>
+</html>
